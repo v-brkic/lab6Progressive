@@ -1,3 +1,5 @@
+// service-worker.js
+
 importScripts('https://unpkg.com/idb@7/build/iife/index-min.js');
 
 const dbPromise = idb.openDB('fotobiljeske-db', 1, {

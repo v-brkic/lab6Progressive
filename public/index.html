@@ -6,19 +6,19 @@
     <title>FotoBilješke PWA</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2196f3">
     
     <!-- Dodavanje apple-touch-icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/180.png">
-    
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
 </head>
 <body>
     <header>
         <h1>FotoBilješke</h1>
     </header>
     <main>
-        <button id="camera-button">Snimi Fotografiju</button>
+        <button id="camera-button" aria-label="Snimi fotografiju">Snimi Fotografiju</button>
         <div id="photos"></div>
     </main>
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
